@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(40, 40, 40);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    height: 60px;
+    z-index: 100;
+    box-shadow: 0 0.1rem 0.5rem #000000a5;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.liesquerda{
+    margin-right: 10px;
+}
+.lidireita{
+    margin-left: 30px;
+}
+.esquerda{
+    display: flex;
+    margin-left: 50px;
+}
+.direita{
+    display: flex;
+    margin-right: 50px;
+}
+#logo-discord:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+#logo-youtube:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+#logo-instagram:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+#logo-txt{
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 28pt;
+}
+a:hover{
+    color: #cd412b;
+    transition: all 0.2s ease-in-out;
+}
+.naveg{
+    margin-right: 15px;
+    transition: 1.1;
+}
+a{
+    text-decoration: none;
+    font: bold;
+    color: #b8b8b8;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+#loja-vanillabr{
+    display: flex;
+    justify-content: space-between;
+}
+.imgloja{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+.vipvanilla{
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #b8b8b8;
+    border-radius: 10px;
+    border: solid 1px red;
+}
+#vipbasic{
+    /* width: 280px;
+    height: 470px; */
+    padding: 15px 30px 0px 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: #505050;
+    border-radius: 10px;
+}
+#vipelite{
+    padding: 15px 30px 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: #505050;
+    border-radius: 10px;
+}
+#viplegendary{
+    padding: 15px 30px 10px 30px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: #505050;
+    border-radius: 10px;
+}
+.ul-beneficios{
+    flex-direction: column;
+}
+.li-beneficios{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 12pt;
+}
+.bt-comprar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: white;
+    margin-top: 5px;
+    background-color: #0582FD;
+    border-radius: 10px;
+}
+.bt-comprar:hover{
+    background-color: #cd412b;
+    transition: all 0.2s ease-in-out;
+}
+.cor-valor{
+    color: rgb(89, 185, 34);
+}
+#nm-loja{
+    display: flex;
+    width: 250px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    background-color: #121212;
+    box-shadow: 0 0.1rem 0.5rem #000000a5;
+}
+#txt-nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+#loja-moedas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#m35{
+    padding: 15px 30px 10px 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: #505050;
+    border-radius: 10px;
+}
+#m80{
+    padding: 15px 30px 10px 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: #505050;
+    border-radius: 10px;
+}
+#m170{
+    padding: 15px 30px 10px 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: #505050;
+    border-radius: 10px;
+}
+#m400{
+    padding: 15px 30px 10px 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: #505050;
+    border-radius: 10px;
+}
+#m1000{
+    padding: 15px 30px 10px 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: #505050;
+    border-radius: 10px;
+}
+p{
+    text-align: justify;
+    color: white;
+}
+h1{
+    color: #cd412b;
+}

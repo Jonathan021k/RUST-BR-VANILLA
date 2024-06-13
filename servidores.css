@@ -1,0 +1,40 @@
+body{
+
+    margin: 100px;
+    padding: 100px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #202020;
+}
+
+h1{
+
+    color: white;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: 100dvh;
+    color: #cd412b;
+
+}
+
+#bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: #0582FD;
+    border-radius: 10px;
+}
+#bt:hover{
+    background-color: #cd412b;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+  
